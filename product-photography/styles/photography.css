@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+  box-sizing: border-box;
+  line-height: 24px;
+}
+
+/*--------------------------------------------------------------
+# body
+--------------------------------------------------------------*/
+body {
+  font-family:'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# header
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# main
+--------------------------------------------------------------*/
+.intro{
+	background-image: url(../img/intro-image.png);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	width:375px;
+	height:724px;
+}
+.intro-text{
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	color:#FEFFFF;
+	/*margin: 8rem 1rem 14rem 1rem;*/
+}
+.intro-sm{
+	display: flex;
+	justify-content: center;
+	margin: ;
+}
+.fa{
+	background: #3AAFA9;
+}
+.fa-facebook-square, .fa-twitter, .fa-instagram{
+	
+	color: black;
+}
+
+.mid-section-text {
+	font-style: normal;
+	color: #1F252A;
+	text-align: center;
+}
+.mid-section-text h3{
+font-size: 24px;
+line-height: 28px;
+font-weight: bold;
+}
+
+.mid-section-text p{	
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: normal;
+}
+.btn{
+	background:#3AAFA9; 
+	color:#FEFFFF;
+	border-radius: 7px;
+	width:214px;
+	height:45px;	
+}
+.features{
+	display: 
+}
+.features-text{
+	text-align:center;
+	color: #1F252A;
+	font-style: normal;
+}
+.features-text h4{
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+}
+.features-text p{
+font-weight: normal;
+font-size: 16px;
+line-height: 19px
+}
+.portfolio{
+	border: 1px red solid;
+	background-image:rgba(0, 0, 0, 0.9), url(../img/homepage2.png),url(../img/Rectangle 10homepage4.png);
+	-webkit-background-image:rgba(0, 0, 0, 0.9), url(../img/homepage2.png),url(../img/Rectangle 10homepage4.png);
+	background-position: top,bottom;
+	background-repeat: no-repeat;
+	color: #FEFFFF;
+	background-
+}
+.portfolio h3{
+
+}
+.portfolio-btn{
+background:#3AAFA9; 
+	color:#FEFFFF;
+	border-radius: 7px;
+	width:214px;
+	height:45px;
+}
+.contact-section{
+display: flex;
+background-color: #DEF2F1;
+}
+.contact-heading{
+text-align: center;
+}
+.contact img{
+
+}
+.contact p{
+text-align: center;
+}
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+.footer{
+	background:#1F252A;
+}
+
+
+/*--------------------------------------------------------------
+# Media Queries 
+--------------------------------------------------------------*/
+
+/*.intro-text{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 85px;
+	text-align: center
+}
+
